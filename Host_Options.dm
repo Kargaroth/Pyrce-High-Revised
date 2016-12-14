@@ -233,7 +233,7 @@ mob/Host/verb
 		if(GameOn==1)return
 		var/ea="Enable"
 		if(keycardfunction=="On")ea="Disable"
-		var/pp5=input(usr,"Do you want to [ea] the functionality of the tapes?") in list("Yes","No")
+		var/pp5=input(usr,"Do you want to [ea] escaping?") in list("Yes","No")
 		if(pp5=="Yes")
 			if(keycardfunction=="Off")
 				keycardfunction="On"
